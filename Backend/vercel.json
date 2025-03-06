@@ -1,0 +1,24 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "backend/server.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "frontend/package.json",
+        "use": "@vercel/static-build",
+        "config": { "distDir": "build" }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/backend/server.js"
+      }
+    ],
+    "env": {
+      "MONGO_URI": "mongodb+srv://veermodicg:U9TpvdeZq7MnG2Uo@cluster0.sttbv.mongodb.net/attendance_tracker?retryWrites=true&w=majority"
+    }
+  }
+  
