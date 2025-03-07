@@ -1,7 +1,9 @@
 # cg_attendance_tracker
 
-> ### Team Members:
->
-> - Garvit Trivedi
-> - Veer Modi
-> - Shubham Modi
+## Postman Documentation: https://documenter.getpostman.com/view/39189272/2sAYdmnUXQ
+
+ ### Team Members:
+
+ - Garvit Trivedi
+ - Veer Modi
+ - Shubham Modi
